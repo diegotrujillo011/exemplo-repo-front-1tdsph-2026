@@ -10,8 +10,10 @@ header h1{
     background-color: transparent;
     font-family: 'SuperMario';
     font-size: 40px;
-    text-align: center;
+    text-align: right;
     margin: 0;
+    padding-left: 20px;
+    margin-top: -26px;
 }
 
 header nav ul{
@@ -24,6 +26,10 @@ body{
     color: rgb(249, 252, 255);
     text-decoration: aliceblue;
     
+}
+header nav ul li a {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 @font-face {
